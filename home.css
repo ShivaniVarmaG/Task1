@@ -1,0 +1,148 @@
+/*verical bar*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+
+ .wrapper .side_bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 100%;
+    background: #0099e6;
+    padding: 20px 0;
+    z-index: 999;
+ }
+
+ .wrapper .logo_size{
+    width: 60px;
+    height: 60px;
+    color: #e6f7ff;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto 40px;
+ }
+
+ .wrapper .side_bar .menu{
+     position: relative;
+     top: 70px;
+     margin: 5px 0;
+ }
+
+ .wrapper .side_bar .bell_icon{
+     position: absolute;
+     bottom: 60px;
+     left: 10%;
+     background:#fff;
+     width: 40px;
+     height: 40px;
+     line-height: 45px;
+     text-align: center;
+     border-radius: 80%;
+     color: rgb(12, 12, 12);
+     font-size: 20px;
+     margin-bottom: 10px;
+     cursor: pointer;
+ }
+
+ .wrapper .side_bar .settings_icon{
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    background:#fff;
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 80%;
+    color: rgb(12, 12, 12);
+    font-size: 20px;
+    cursor: pointer;
+ }
+ /*verical bar*/
+ /*horizontal bar*/
+ .search_bar{
+     position: absolute;    
+     background-color: cadetblue;
+     height:40px;
+     border-radius:10px;
+     padding:10px;
+     margin-right: auto;
+     
+ }
+
+ .search_class{
+     border:none;
+     outline: thin;
+     background:none;
+     float:left;
+     top: 20px;
+     padding:5px;
+     font-size:12px;
+     line-height: 10px;
+     width:240px;
+    
+ }
+ 
+.header1{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     position: absolute;
+     top: 25px;
+     left:70px;
+     margin-left: auto;
+ }
+ .heticon{
+     margin: 5px;
+     padding: 20px;
+     background:rgb(97, 170, 238);
+     width: 40px;
+     height: 40px;
+     line-height: 10px;
+     font-size:12px;
+     text-align: center;
+     border-radius: 10px;
+     color: rgb(12, 12, 12);
+     font-size: 20px;
+     cursor: pointer;
+ }
+
+ .het_bar li{
+     display: inline-block;
+ }
+ table, th, td {
+    border: 5px;
+    float: RIGHT;
+    border-spacing: 5px;
+    width: 100%;
+     height: 100%;
+  }
+  th, td {
+    padding: 15px;
+  }
+
+  .data{
+      float: right;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+  }
+  .data li{
+    display: inline-block;
+  }
+  .data li .but{
+      width: 40px;
+      height: 20px;
+      color: darkcyan;
+  }
+ /*horizontal bar*/
+ 

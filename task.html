@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>DEMO</title>
+    <link rel="stylesheet" href="semantic.css" />
+    <link rel="stylesheet" href="icon.css" />
+    <link rel="stylesheet" href="home.css" />
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/icon.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+  </head>
+  <body style="background-color: #EAF2F8 ; font-family: 'PT Sans', sans-serif;">
+    <!-- Sidebar -->
+    <div class="ui grid three column">
+      <div class="row"></div>
+      <div class="two wide column">
+        <div class="wrapper">
+          <div class="side_bar">
+            <div class="logo_size">
+              <!--icon and user-->
+              <div>
+                <ul>
+                  <li>
+                    <a href="#" class="active">
+                      <i class="fab fa-earlybirds"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="active">
+                      <i class="fas fa-user-circle"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="menu">
+                <!--menu icons-->
+                <ul>
+                  <li>
+                    <a href="#"><i class="far fa-folder"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="far fa-clone"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fas fa-filter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fas fa-location-arrow"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="bell_icon">
+                <!--bell icon-->
+                <i class="far fa-bell"></i>
+              </div>
+              <div class="settings_icon">
+                <!--settings icon-->
+                <i class="fas fa-cog"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Sidebar -->
+      <!-- Column 2 start -->
+
+      <div class="eleven wide column">
+        <div class="row">
+          <div class="ui category search">
+            <div class="ui icon input">
+              <input
+                class="prompt"
+                type="text"
+                placeholder="Search by event name and League"
+              />
+              <i class="search icon"></i>
+            </div>
+            <button class="ui icon button">
+              <i class="spinner icon"></i>
+            </button>
+            <button class="ui icon button">
+              <i class="asterisk icon"></i>
+            </button>
+            <button class="ui icon button">
+              <i class="life ring icon"></i>
+            </button>
+            <button class="ui icon button" style="float: right; background-color:#3498DB ;">
+              Add Tips
+            </button>
+          </div>
+        </div>
+        <!-- ENd of row 1 -->
+        <!-- start of row 2 -->
+        <br /><br />
+        <div class="row">
+          <text style="font-size: 2rem;"
+            ><strong>My Personal</strong
+            ><i style="color: gray;"> Notifications</i></text
+          >
+          <button class="ui icon button" style="float: right; background-color:#3498DB">
+            <i class="calendar icon"></i>Today
+          </button>
+        </div>
+        <!-- end of row 2 -->
+        <br />
+        <!-- start of row 3 -->
+        <div class="row">
+          <div class="ui secondary  pointing menu">
+            <a class="item active" data-tab="first" style="color: gray;">All Feed</a>
+            <a class="item" data-tab="second" style="color: gray;">All Subscriptions</a>
+            <a class="item" data-tab="third" style="color: gray;">All Games</a>
+            <!-- dropdown menu -->
+            <div class="right menu">
+              <h4 class="ui header">
+                <i class="circle icon"></i>
+                <div class="content">
+                  Premier League
+                  <div class="ui inline dropdown">
+                    <i class="dropdown icon"></i>
+                    <div class="menu">
+                      <div class="header">Adjust time span</div>
+                      <div class="active item" data-text="today">Today</div>
+                      <div class="item" data-text="this week">This Week</div>
+                      <div class="item" data-text="this month">This Month</div>
+                    </div>
+                  </div>
+                </div>
+              </h4>
+            </div>
+          </div>
+          <!-- tabs -->
+          <div class="ui active tab segment" data-tab="first" style="background-color:#EAF2F8">
+            <div class="row">
+              <div class="ui three doubling cards">
+                <div class="card">
+                  <div class="content"></div>
+                  <div class="header" style="text-align: center;">
+                    <h3><span><button class="ui icon button" style="background-color:#3498DB">
+                      <i class="user plus icon"></i>
+                    </button></span>Subscriptions</h3>
+                  </div>
+                  <div class="meta" style="text-align: center;">1 Win</div>
+                </div>
+                <div class="card">
+                  <div class="content"></div>
+                  <div class="header" style="text-align: center;">
+                    <h3><span><button class="ui icon button" style="background-color:#3498DB">
+                      <i class="clock icon"></i>
+                    </button>Upcoming Matches</h3>
+                  </div>
+                  <div class="meta" style="text-align: center;">
+                    3 Games today
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="content"></div>
+                  <div class="header" style="text-align: center;">
+                    <h3><span><button class="ui icon button" style="background-color:#3498DB">
+                      <i class="exclamation circle icon"></i>
+                    </button>Past Matches</h3>
+                  </div>
+                  <div class="meta" style="text-align: center;">2 Games</div>
+                </div>
+              </div>
+            </div>
+            <br>
+            
+            <div class="ui grid three column">
+              <div class="column"><div class="ui card">
+                <div class="image">
+                  <img src="F:\Task 1\images\card 1.jpg">
+                </div>
+                <div class="content">
+                  <a class="header">Todays Game review</a>
+                  <div class="meta">
+                    <span class="date">Match III</span>
+                  </div>
+                  <div class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Pellentesque scelerisque nunc vitae erat viverra
+                          mollis. Sed mattis mattis mauris, vel iaculis lorem
+                          congue sed. Nulla tincidunt convallis purus.
+                          Vestibulum vel neque faucibus lectus malesuada
+                          sollicitudin id eget ex.<br><br><br>
+                  </div>
+                </div>
+                <div class="extra content">
+                  <a>
+                    <i class="like icon"></i>
+                    22 Likes
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+              <div class="column">
+                <div class="ui card">
+                  <div class="image">
+                    <img src="F:\Task 1\images\card2 (2).jpg">
+                  </div>
+                </div>
+                <div class="ui card">
+                  <div class="image">
+                    <img src="F:\Task 1\images\card3 (2).jpg">
+                  </div>
+                </div>
+                <div class="ui card">
+                  <div class="image">
+                    <img src="F:\Task 1\images\card4 (2).jpg">
+                    <br><br>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="ui card">
+                  <div class="image">
+                    <img src="F:\Task 1\images\card5 (2).jpg">
+                  </div>
+                </div>
+                <div class="ui card">
+                  <div class="image">
+                    <img src="F:\Task 1\images\card6 (2).jpg">
+                  </div>
+                  <div class="content">
+                    <a class="header">Final Match </a>
+                    <div class="meta">
+                      <span class="date">This Sunday</span>
+                    </div>
+                  </div>
+                  <div class="extra content">
+                    <a>
+                      <i class="like icon"></i>
+                      30 Likes
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end of row 3 -->
+      </div>
+      <!-- End of Column2 -->
+      <!-- Column 3 start -->
+      <div class="three wide column ">
+          <div class="row">
+            <i class="columns icon" ><span><h4>3,274</h4></span></i>
+            <!-- <button class="ui icon button" style="float: right;">15:41 > </button> -->
+            <select class="ui dropdown" style="float: right; color: gray; background-color: #EAF2F8;">
+                <option value="" >15:41 (GMT+1)</option>
+                <option value="1">time zone 1</option>
+                <option value="0">time zone 2</option>
+              </select>
+          </div>
+          <br><br><br>
+          <div class="row">
+            <div class="ui dropdown">
+                <div class="text"><strong>Your Balance</strong></div>
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                  <div class="item">Balance 1</div>
+                  <div class="item">Balance 2</div>
+                  <div class="item">Balance 3</div>
+                  </div>
+          </div>
+          <span style="float: right;"> <div class="header" ><h2>345,45</h2></div>
+            <div class="meta" style="color: gray;float: right;">+1,37%</div>
+          </span>
+          </div>
+          <br><br>
+      <div class="row">
+        <img src="F:\Task 1\images\img1.jpg">
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="text"><strong>Top following</strong><span style="float: right;color: gray;">All</span></div> 
+      </div>
+      <br><br>
+      <div class="row">
+        <h1><i class="user icon" style="color: hotpink;"></i>
+        <i class="user icon" style="color: indigo;"></i>
+        <i class="user icon" style="color: yellowgreen;"></i>
+        <i class="user icon" style="color: lightsalmon;"></i>
+        <i class="user icon" style="color: maroon;"></i></h1>
+    </div>
+    <br>
+    <div class="row">
+        <h1><i class="user icon" style="color: mediumblue;"></i>
+        <i class="user icon" style="color:orangered;"></i>
+        <i class="user icon" style="color: olive;"></i>
+        <i class="user icon" style="color: blueviolet;"></i>
+        <i class="user icon"></i></h1>
+    </div>
+      </div>
+      
+      <div class="row">
+        <div class="text">Notifications</div>
+      </div>
+      <!-- End of column 3 -->
+      <!-- <div w3-include-html="home.html"></div> -->
+    </div>
+  </body>
+</html>
